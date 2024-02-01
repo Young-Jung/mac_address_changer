@@ -13,3 +13,8 @@ Why change the MAC address?
 1. Increase anonymity.
 2. Impersonate other devices.
 3. Bypass filters.
+
+You can change MAC address using ifconfig
+ifconfig eth0 down
+ifconfig eth hw ether 00:11:22:33:44:55
+ifconfig eth0 up
