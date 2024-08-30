@@ -2,7 +2,7 @@ Media Access Control Address Changer
 
 - using subprocess module to execute system commands  
   import subprocess  
-  subprocess.call("COMMAND", Shell=True)  
+  subprocess.call("COMMAND", shell=True)  
 - using optparse module to parse command line options  
   import optparse  
 - using Regular Expressions Ref. https://pythex.org/  
@@ -17,6 +17,6 @@ Why change the MAC address?
 
 You can change MAC address using ifconfig:
 
-~# ifconfig eth0 down  - disable interface
-~# ifconfig eth0 hw ether 00:11:22:33:44:55  - modify interface 
-~# ifconfig eth0 up  - enable interface
+- ~# ifconfig eth0 down  -- disable interface
+- ~# ifconfig eth0 hw ether 00:11:22:33:44:55  -- modify interface 
+- ~# ifconfig eth0 up  -- enable interface
